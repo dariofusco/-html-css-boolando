@@ -13,6 +13,9 @@ nav {
     justify-content: space-between;
     align-items: center;
 }
+footer {
+    background-color: rgb(26, 26, 26);
+}
 ul {
     display: flex;
     list-style: none;
@@ -70,6 +73,16 @@ li {
     position: relative;
     display: inline-block;
     margin: 2px;
+    padding-bottom: 20px;
+}
+.footer-container {
+    max-width: 920px;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
 }
 
 
