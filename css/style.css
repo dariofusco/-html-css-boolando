@@ -20,3 +20,56 @@ li {
 .img-logo {
     height: 25px;
 }
+.discount {
+    width: max-content;
+    background-color: red;
+    padding: 5px;
+    position: absolute;
+    bottom: 40px;
+    left: 0px;
+}
+.feature {
+    width: max-content;
+    background-color: green;
+    padding: 5px;
+    position: absolute;
+    bottom: 40px;
+    left: 50px;
+}
+.heart {
+    color: red;
+    padding: 5px;
+    font-size: 25px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.price {
+    color: red;
+}
+.line-through {
+    text-decoration: line-through;
+    color: black;
+    padding: 10px;
+}
+.card img {
+    width: 300px;
+    border: 1px solid black;
+    object-fit: cover;   
+    
+}
+
+.container {
+    max-width: 920px;
+    margin: 0 auto;
+    padding: 40px;
+}
+
+.card {
+    width: 300px;
+    position: relative;
+}
+
+.bottom-card {
+    
+}
