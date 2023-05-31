@@ -46,12 +46,15 @@ li {
     left: 50px;
 }
 .heart {
-    color: red;
+    color: black;
     padding: 5px;
     font-size: 25px;
     position: absolute;
     top: 0;
     right: 0;
+}
+.heart:hover {
+    color: red;
 }
 .price {
     color: red;
