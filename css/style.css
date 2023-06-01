@@ -91,9 +91,12 @@ li {
 }
 .img-levis, .img-guess, .img-zucchero, .img-levis-2, .img-maya, .img-esprit {
     position: absolute;
+    opacity: 1;
+    transition: opacity 0.5s;
 }
 .img-levis:hover, .img-guess:hover, .img-zucchero:hover, .img-levis-2:hover, .img-maya:hover, .img-esprit:hover {
     opacity: 0;
+    transition: opacity 0.5s;
 }
 h3 {
     padding-left: 10px;
